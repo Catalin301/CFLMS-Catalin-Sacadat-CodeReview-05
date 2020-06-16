@@ -1,0 +1,246 @@
+.backg{
+	background-color: #2F4F4F;
+}
+
+.divheader{
+	width:100%;
+	height:100px;
+	background-color: black;
+}
+
+.movie{
+	text-align: center;
+	color:white;
+	padding-top: 1%;
+	font-size: 250%;
+	font-family: arial;
+}
+
+nav{
+	float:left;
+	text-align:left;
+	background-color:grey;
+	width:100%;
+}
+
+a{
+	font-weight:bold;
+	font-size:1.5em;
+	color:white;	
+}
+
+li{
+	display:inline;
+	color:white;
+}
+
+.heading{
+	text-align: center;
+	color:white;
+	padding-top: 5%;
+	font-size: 50px;
+}
+
+.box{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	color: white;
+	width: 	600px;
+	height: 350px;
+	margin: 20px;
+}
+
+.img1{
+	margin-left: 5%;
+	margin-top: 5%;
+	width:220px;
+	height:320px; 
+}
+
+.movieText{
+	margin-right:10%;
+	margin-left: 5%;
+}
+
+/* Button style*/
+
+.btnLike0{
+	font-size: 25px;
+	margin-top: 55%;
+	margin-left: 55%;
+	background-color: black;
+	color: green;
+	border:none;
+}
+
+.btnLike0:hover{
+	cursor:pointer;
+}
+
+.btnLike1{
+	font-size: 25px;
+	margin-top: 55%;
+	margin-left: 55%;
+	background-color: black;
+	color: green;
+	border:none;
+}
+
+.btnLike1:hover{
+	cursor:pointer;
+}
+
+.btnLike2{
+	font-size: 25px;
+	margin-top: 55%;
+	margin-left: 55%;
+	background-color: black;
+	color: green;
+	border:none;
+}
+
+.btnLike2:hover{
+	cursor:pointer;
+}
+
+.btnLike3{
+	font-size: 25px;
+	margin-top: 55%;
+	margin-left: 55%;
+	background-color: black;
+	color: green;
+	border:none;
+}
+
+.btnLike3:hover{
+	cursor:pointer;
+}
+
+.btnLike4{
+	font-size: 25px;
+	margin-top: 55%;
+	margin-left: 55%;
+	background-color: black;
+	color: green;
+	border:none;
+}
+
+.btnLike4:hover{
+	cursor:pointer;
+}
+
+.btnLike5{
+
+	font-size: 25px;
+	margin-top: 55%;
+	margin-left: 55%;
+	background-color: black;
+	color: green;
+	border:none;
+}
+
+.btnLike5:hover{
+	cursor:pointer;
+}
+
+/* Count element style*/
+
+.mbox{
+	width: 25px;
+	height: 25px;
+	background-color: green;
+	border-radius: 50px;
+	float: right;
+	margin-right: -13%;
+	margin-top: 48%;
+	text-align:center;
+	color: white;
+	padding: 20px;
+	font-size: 1.5em;
+}
+
+/* Flex Pictures */
+
+.flex1{
+	display:flex;
+	justify-content: space-around; 
+}
+
+.flex2{
+	display:flex;
+	justify-content: space-around; 
+}
+
+.flex3{
+	display:flex;
+	justify-content: space-around; 
+}
+
+/* Footer style*/
+
+.footer1{
+	width:100%;
+	height: 100px;
+	background-color: black; 
+}
+
+#line{
+	text-align: center;
+	color:white;
+	margin-top: -1%;
+	padding-top: 2%;
+	font-size: 180%;
+	font-family: arial;
+}
+
+/* "Sort" button style*/
+
+.dropbtn {
+  background-color: #2F4F4F;
+  color: white;
+  padding: 16px;
+  font-size: 18px;
+  border: none;   
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  border-radius: 10px 5px 10px 5px;
+  display: none;
+  border:none;
+  position: absolute;
+  background-color: grey;
+  min-width: 70px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #2F4F4F;
+	cursor:wait;
+}
+
+.sortbtn{
+	display: inline;
+	text-align: center;
+}

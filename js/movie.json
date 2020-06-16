@@ -1,0 +1,47 @@
+var json = `[{
+  "movieName": "Avatar",
+  "shortDescription":"Avatar (marketed as James Cameron's Avatar) is a 2009 American ...",
+  "imgTitel":"img/Avatar.jpg",
+  "movieNumber":"0"
+
+}, 
+
+{
+  "movieName": "1917",
+  "shortDescription":"1917 is a 2019 British war film directed by Sam Mendes ...",
+  "imgTitel":"img/1917.jpg",
+  "movieNumber":"1" 
+  
+}, 
+
+{
+  "movieName": "Bad Boys",
+  "shortDescription":"Bad Boys for life is a US-american Movie ...", 
+  "imgTitel":"img/bad_boys.jpg",
+  "movieNumber":"2"  
+}, 
+
+{
+  "movieName": "Lion King",
+  "shortDescription":"The Lion King is a 1994 American animated musical drama film ...",
+  "imgTitel":"img/löwe.jpg",
+  "movieNumber":"3" 
+
+}, 
+
+{
+  "movieName": "Superman",
+  "shortDescription":"Batman v Superman: Dawn of Justice is a 2016 American superhero film ...",
+  "imgTitel":"img/batman_superman.jpg",
+  "movieNumber":"4" 
+ 
+}, 
+
+{
+  "movieName": "Iron Man 3",
+  "shortDescription":"Iron Man 3 is a 2013 American superhero film ...", 
+  "imgTitel":"img/iron-man-3.jpeg",
+  "movieNumber":"5"
+
+   
+}]`; 

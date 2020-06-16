@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+	
+		<html lang="en">
+
+<head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<link rel='stylesheet' type='text/css' href='style.css'>
+
+	<script type="text/javascript" src="js/myscript.js"></script>
+
+	<script type="text/javascript" src="js/movie.json"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta charset="utf-8">
+
+											<title>CodeReview-05</title>
+
+</head>
+
+<body>
+	
+	<header>
+
+
+		<div class="divheader">
+			
+	 		<h1 class="movie">Movie Factory</h1>
+		
+		</div>
+
+	
+	</header>
+
+		<nav>
+			<ul>
+
+        		<li><a href="index.html">Home</a></li>
+        
+			</ul>
+    	</nav>
+	<div class="backg">
+		<div class="sortbtn">
+			
+			<h1 class="heading">Movies</h1>
+
+			<div class="dropdown">
+	  			<button class="dropbtn">Sort</button>
+			  	<div class="dropdown-content">
+			  		<a onclick="sort()" href="#">Sort</a>
+			  	</div>
+			</div>
+		
+		</div>
+	
+		<div class="flex1">
+			<div class="box">
+				<div class="movieimg">
+					<img id="img0" class="img1" src="img/Avatar.jpg">
+				</div>
+				<div class="movieText">
+					<h1 id="movieName0">Movie name</h1>
+					<p id="shortD0">A short description</p>
+				
+					<div>
+						<button class="btnLike0" title="Avatar">Like <i class="fa fa-thumbs-o-up"></i></button>
+						<div class="mbox">
+							<span id ="count0" class="count0">0</span>
+						</div>	
+
+					</div>
+				</div>
+        	</div>
+
+		
+			<div class="box">
+				<div class="movieimg">
+					<img  id="img1" class="img1" src="img/1917.jpg">
+				</div>
+				<div class="movieText">
+					<h1 id="movieName1">Movie name</h1>
+					<p id="shortD1">A short description</p>
+				
+					<div>
+						<button class="btnLike1" title="1917">Like <i class="fa fa-thumbs-o-up"></i></button>
+						<div class="mbox">
+							<span id ="count1"  class="count1">0</span>
+						</div>	
+
+					</div>
+				</div>
+        	</div>
+        </div>
+
+		<div class="flex2">
+        	<div class="box">
+				<div class="movieimg">
+					<img id="img2" class="img1" src="img/bad_boys.jpg">
+				</div>
+				<div class="movieText">
+					<h1 id="movieName2">Movie name</h1>
+					<p id="shortD2">A short description</p>
+				
+					<div>
+						<button class="btnLike2" title="Bad-Boys: For life">Like <i class="fa fa-thumbs-o-up"></i></button>
+						<div class="mbox">
+							<span id ="count2"  class="count2">0</span>
+						</div>	
+
+					</div>
+				</div>
+        	</div>
+       
+			
+        	<div class="box">
+				<div class="movieimg">
+					<img id="img3"  class="img1" src="img/löwe.jpg">
+				</div>
+				<div class="movieText">
+					<h1 id="movieName3">Movie name</h1>
+					<p id="shortD3">A short description</p>
+	
+					<div>
+						<button class="btnLike3" title="Lion King">Like <i class="fa fa-thumbs-o-up"></i></button>
+						<div class="mbox">
+							<span id ="count3" class="count3">0</span>
+						</div>	
+
+					</div>
+				</div>
+        	</div>
+        </div>
+
+		<div class="flex3">
+        	<div class="box">
+				<div class="movieimg">
+					<img id="img4"  class="img1" src="img/batman_superman.jpg">
+				</div>
+				<div class="movieText">
+					<h1 id="movieName4">Movie name</h1>
+					<p id="shortD4">A short description</p>
+			
+					<div>
+						<button class="btnLike4" title="Batman vs. Superman:Dawn of Justice">Like <i class="fa fa-thumbs-o-up"></i></button>
+						<div class="mbox">
+							<span id ="count4"  class="count4">0</span>
+						</div>	
+
+					</div>
+				</div>
+        	</div>
+
+        	<div class="box">
+				<div class="movieimg">
+					<img id="img5" class="img1" src="img/iron-man-3.jpeg">
+				</div>
+				<div class="movieText">
+					<h1 id="movieName5">Movie name</h1>
+					<p id="shortD5">A short description</p>
+				
+					<div>
+						<button class="btnLike5" title="Iron Man 3">Like <i class="fa fa-thumbs-o-up"></i></button>
+						<div class="mbox">
+							<span id ="count5" class="count5">0</span>
+						</div>	
+
+					</div>
+				</div>
+        	</div>
+		</div>
+	<div class ="spacebox" style="height:400px">
+	</div>
+	</div>
+
+
+
+<footer class="footer1">
+
+	
+		<p id="line">Movie Factory</p>
+
+</footer>
+
+</body>
+</html>
